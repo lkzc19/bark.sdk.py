@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-import requests
 from enum import Enum
 
+import requests
 
 __all__ = ['Client', 'Sound']
 

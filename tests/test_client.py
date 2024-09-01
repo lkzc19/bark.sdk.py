@@ -1,10 +1,8 @@
-from dotenv import load_dotenv
 import os
 
-from bark.client import Client
-from bark.client import Sound
-from bark.client import Level
+from dotenv import load_dotenv
 
+from bark.client import Client, Level, Sound
 
 load_dotenv
 token = os.getenv('token')
